@@ -7,21 +7,21 @@ Projeto pode ser importado para a IDE própria Spring Tool Suite.
 
 **Listar Todos Clientes**
 > GET /client/ HTTP/1.1
-Host: localhost:8080
+Host: localhost:8081
 
 **Buscar Cliente por ID**
 > GET /client/1 HTTP/1.1
-Host: localhost:8080/
+Host: localhost:8081/
 
 **Salvar Cliente**
-> POST /client/save HTTP/1.1
-Host: localhost:8080
+> POST /client/ HTTP/1.1
+Host: localhost:8081
 Content-Type: application/json
 {"name":"meu nome", "email": "aureliomiguelgama@gmail.com", "phone":"11 987878787"}
 
 **Atualizar Cliente**
 > PUT /client/ HTTP/1.1
-Host: localhost:8080
+Host: localhost:8081
 Content-Type: application/json
 {
     "id": 1,
@@ -33,5 +33,5 @@ Content-Type: application/json
 
 **Deletar Cliente**
 > DELETE /client/1 HTTP/1.1
-Host: localhost:8080
+Host: localhost:8081
 
